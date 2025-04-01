@@ -7,7 +7,7 @@ Learning a new skill, especially something complex like coding, is a journey. It
 - **Fixed Mindset:** Believing intelligence/skill is fixed ("I'm just not smart enough"). This hinders learning.
 - **Growth Mindset:** Believing you can improve abilities through dedication and hard work ("I can't do it _yet_, but I'll get there with practice"). This mindset encourages embracing challenges and learning from mistakes.
 - **Why it matters:** Challenges become opportunities to grow, not signs you can't succeed. Embrace struggles as part of the learning process and remember your progress! Praising effort fosters this mindset.
-- **Learn More:** [Believe you can get better](https://www.youtube.com/watch?v=J-swZaKN2Ic) (TED Talk by Prof. Carol S. Dweck)
+- **Learn More:** [Believe you can get better](https://www.youtube.com/watch?v=J-swZaKN2Ic) (TEDx Talk by Prof. Carol S. Dweck)
 
 ## 2. Understand the Learning Process
 
@@ -67,7 +67,7 @@ Large Language Models (like ChatGPT) are powerful resources, but use them wisely
 
 ## Supplemental Resources
 
-- [Summary of Coursera's Learning How to Learn course](https://youtu.be/O96fE1E-rf8?si=cf2nFuzZCBP7bdS1) (TED Talk by Prof. Barbara Oakley)
+- [Summary of Coursera's Learning How to Learn course](https://youtu.be/O96fE1E-rf8?si=cf2nFuzZCBP7bdS1) (TEDx Talk by Prof. Barbara Oakley)
 - [Becoming a TOP Success Story](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2) (Article on DEV Community)
 - [Managing inspiration and motivation](https://markmanson.net/how-to-get-motivated) (Article by Mark Manson)
 - [Learning to code when it gets dark](https://www.freecodecamp.org/news/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje) (Article on freeCodeCamp)
