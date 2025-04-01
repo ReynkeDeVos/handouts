@@ -1,10 +1,10 @@
 # Asking for Help Effectively: 5 Steps to Better Answers
 
+![Examples of bad, okay, and good ways to ask for help on Slack](./reaching-out-examples.png)
+
 To get the **best help quickly** from colleagues or instructors, structure your questions clearly and ask directly (see [Don't Ask to Ask](https://dontasktoask.com/)).
 
 **Always try to research and solve the problem yourself first!**
-
-![Examples of bad, okay, and good ways to ask for help on Slack](./reaching-out-examples.png)
 
 If you're still stuck, follow these **5 essential steps** when asking your question:
 
