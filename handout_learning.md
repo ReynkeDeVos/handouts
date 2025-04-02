@@ -68,7 +68,6 @@ Large Language Models (like ChatGPT) are powerful resources, but use them wisely
 ## Supplemental Resources
 
 - [Summary of Coursera's Learning How to Learn course](https://youtu.be/O96fE1E-rf8?si=cf2nFuzZCBP7bdS1) (TEDx Talk by Prof. Barbara Oakley)
-- [Becoming a TOP Success Story](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2) (Article on DEV Community)
 - [Managing inspiration and motivation](https://markmanson.net/how-to-get-motivated) (Article by Mark Manson)
 - [Learning to code when it gets dark](https://www.freecodecamp.org/news/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje) (Article on freeCodeCamp)
 - ["The Learning Myth: Why I'll Never Tell My Son He's Smart"](https://www.khanacademy.org/college-careers-more/talks-and-interviews/talks-and-interviews-unit/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart) (Khan Academy article by Sal Khan)
