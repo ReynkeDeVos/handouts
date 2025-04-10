@@ -28,7 +28,7 @@ Getting stuck is normal! Try these steps first:
 
 - **NEVER stay stuck on one problem for more than 30 minutes of focused time.**
 - After 30 minutes, ask your colleagues for help. Collaborative learning enhances understanding. Clearly explain the problem and your attempts.
-- If seeking help from colleagues doesn't resolve it within roughly another half hour, ask your instructor or use the dedicated Slack channel (`#_questions/_questions`). Moving forward is key!
+- If seeking help from colleagues doesn't resolve it within roughly another half hour, ask your instructor or use the dedicated Slack channel (`#_questions/_fragen`). Moving forward is key!
 
 ## 4. Manage Your Time & Avoid Pitfalls
 
