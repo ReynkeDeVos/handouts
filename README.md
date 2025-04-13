@@ -38,5 +38,3 @@ Learn the best practices for seeking assistance, including:
 ## 🤝 Contributing
 
 These resources are maintained to help students learn effectively. If you notice any issues or have suggestions for improvements, please let us know.
-
-test
