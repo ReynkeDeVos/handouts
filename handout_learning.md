@@ -33,7 +33,7 @@ Getting stuck is normal! Try these steps first:
 ## 4. Manage Your Time & Avoid Pitfalls
 
 - **Be Consistent with Spaced Repetition:** Short, regular study sessions are more effective than infrequent marathon sessions. Use **Spaced Repetition** – reviewing material at increasing intervals just before you might forget it – to dramatically improve long-term memory. Build this habit.
-- **Avoid Procrastination:** Use techniques like the Pomodoro Technique (work 25 mins, break 5 mins, or adjust as needed) to stay focused. Effective time management is linked to better academic outcomes and well-being. [Pomofocus Timer](https://pomofocus.io/)
+- **Avoid Procrastination:** Use techniques like the Pomodoro Technique (e.g. work 55 mins, break 5 mins, or adjust as needed) to stay focused. Effective time management is linked to better academic outcomes and well-being. [Pomofocus Timer](https://pomofocus.io/)
 - **Minimize Distractions:** Turn off notifications and find a quiet study space. Mobile phone overuse can correlate with procrastination.
 - **Don't Compare:** Focus on _your_ progress compared to _your_ past self, not others. Everyone learns at their own pace.
 - **Stick to the Path:** Avoid deep "rabbit holes" on topics outside the current learning scope; they can derail momentum.
