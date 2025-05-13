@@ -51,7 +51,7 @@ Large Language Models (like ChatGPT) are powerful resources, but use them wisely
 
 - **Remember Your Goal:** The aim is to _learn_ and build problem-solving skills, not just get the answer.
 - **Avoid Direct Solutions:** Letting LLMs give you the final answer hinders learning. Be aware of potential inaccuracies or limitations in their output. Try Google and Documentation first!
-- **Use Nova in Your LMS:** Utilize the integrated LLM Nova available inside your learning management system at https://learn.wbscodingschool.com/ - this keeps your learning environment consolidated.
+- **Use Nova in Your LMS:** Utilize the integrated LLM Nova available inside your learning management system at https://learn.wbscodingschool.com/ - this one knows the curriculum and tries not to give the answers to your exercises, keeping your learning environment consolidated.
 - **Best Practice - No Copy-Pasting:** Only use website LLMs and NEVER EVER copy-paste code or text into or out of them. This forces you to ask thoughtful questions rather than letting AI hand out solutions. When you have to manually type your code after receiving guidance, you engage more deeply with the concepts.
 - **Use Guiding Prompts:** Ask LLMs to guide you towards the solution instead of giving it away. Try custom prompts like this example:
 
