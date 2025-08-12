@@ -51,13 +51,18 @@ Large Language Models (like ChatGPT) are powerful resources, but use them wisely
 
 - **Remember Your Goal:** The aim is to _learn_ and build problem-solving skills, not just get the answer.
 - **Avoid Direct Solutions:** Letting LLMs give you the final answer hinders learning. Be aware of potential inaccuracies or limitations in their output. Try Google and Documentation first!
-- **Use Guiding Prompts:** Ask LLMs to guide you towards the solution instead of giving it away. Try prompts like this example:
+- **Use Study Modes:** When using ChatGPT or Gemini, activate their study mode features. These are designed to guide learning rather than provide direct answers.
 
-> I have a learning task I'd like your help with. Under no circumstances should you give me the direct answer or solution to my problem. Instead, your role is to guide me carefully and thoughtfully toward finding the solution myself through targeted questions and hints.
->
-> Begin by asking me clarifying questions to gauge my current understanding. Once you've assessed my knowledge, ask me progressively deeper, guiding questions tailored specifically to my level of understanding. If I struggle or get stuck, do not directly solve the problem-instead, simplify your guiding questions or provide subtle hints to help me make progress.
->
-> Always prioritize helping me develop deeper understanding and independent problem-solving skills. Let's start now—please begin by asking me what problem I'm working on and what I already understand about it.
+  <img src="chatGPT_study_mode.png" width="30%" alt="ChatGPT Study Mode">
+
+- **Use NOVA from the LMS:** The Learning Management System provides NOVA, which is very similiar to the study modes.
+- **Never Copy-Paste Code:** As a rule of thumb, never copy and paste code directly into or from LLM websites or tools. This prevents you from understanding what you're implementing and building essential problem-solving skills.
+
+**Important: Disable AI Coding Tools Initially**
+
+- **Turn Off GitHub Copilot in VSCode:** Disable Copilot and other AI coding assistants in your editor settings.
+- **Avoid AI Coding Tools:** Do not use Cursor, Windsurf, Kiro, or similar AI-powered coding tools when you're just starting out.
+- **When to Start Using Them:** Only begin using these tools when you feel confident enough about your coding skills and understanding. Using them too early can hinder your learning process by preventing you from developing fundamental programming concepts and problem-solving abilities.
 
 ---
 
