@@ -34,12 +34,10 @@ git push -u origin main
 
 ```bash
 git switch -c <branchname>
-git add . && git commit -m "this is my change"
-git push -u origin <branchname>
+git add . && git commit -m "this is my change"  # Änderungen speichern
+git push -u origin <branchname>     # einen Pull Request erstellen ODER einen PR ergänzen (erkennt GitHub/git automatisch, wenn es die gleiche Branch ist)
 ```
 
-- **Änderungen speichern:** `git add . && git commit -m "this is my change"`
-- **Code hochladen:** `git push -u origin <branchname>` für einen Pull Request ODER Pull Request ergänzen (erkennt GitHub/git automatisch, wenn es die gleiche Branch ist)
 - Auf der GitHub-Seite Pull Request erstellen, falls es noch keinen gibt
 
 ---
@@ -60,7 +58,7 @@ git add . && git commit -m "resolve merge conflicts"
 git push origin <branchname>  # den PR aktualisieren mit den gelösten Konflikten
 ```
 
-> So kann ohne Probleme online der Branch in main oder staging gemerged werden.
+> so kann ohne Probleme online der branch in main oder staging gemerged werden
 
 ---
 
