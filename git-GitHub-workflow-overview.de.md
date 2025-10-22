@@ -58,7 +58,7 @@ git add . && git commit -m "resolve merge conflicts"
 git push origin <branchname>  # den PR aktualisieren mit den gelösten Konflikten
 ```
 
-> so kann ohne Probleme online der branch in main oder staging gemerged werden
+> so kann ohne Probleme online der branch in `main` oder `staging` gemerged werden
 
 ---
 
