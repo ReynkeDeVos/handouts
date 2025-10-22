@@ -140,7 +140,7 @@ feature:    D --- E ------- M
 ## 🌿 Variante 2: Rebase
 
 ```bash
-git switch <branchname>
+# Auf eurem <branchname>
 git pull --rebase origin main     # shorthand für: git fetch origin && git rebase origin/main
 ```
 
