@@ -110,7 +110,7 @@ Ihr wollt jetzt euren Branch aktualisieren.
 
 ```bash
 git switch main
-git pull
+git pull                    # shorthand für git fetch && git merge
 git switch <branchname>
 git merge main              # ggf. Konflikte lösen
 git push
