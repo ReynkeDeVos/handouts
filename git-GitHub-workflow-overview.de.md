@@ -62,7 +62,7 @@ git push origin <branchname>  # den PR aktualisieren mit den gelösten Konflikte
 
 ---
 
-## Ups! Ich habe direkt auf main gearbeitet
+## Ups! Ich habe direkt auf `main` gearbeitet
 
 ```bash
 git switch -c <branchname>
