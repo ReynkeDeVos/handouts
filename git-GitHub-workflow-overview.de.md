@@ -46,7 +46,7 @@ git push -u origin <branchname>     # einen Pull Request erstellen ODER einen PR
 
 ```bash
 git switch main
-git pull  # lokales main mit dem online GitHub Repository synchronisieren (shorthand für git fetch && git merge)
+git pull  # lokales main mit dem online GitHub Repository synchronisieren (shorthand für: git fetch && git merge)
 git switch <branchname>
 git merge main  # aktualisiertes main in den Feature-Branch mergen & Konflikte auslösen
 ```
@@ -110,7 +110,7 @@ Ihr wollt jetzt euren Branch aktualisieren.
 
 ```bash
 git switch main
-git pull                    # shorthand für git fetch && git merge
+git pull                    # shorthand für: git fetch && git merge
 git switch <branchname>
 git merge main              # ggf. Konflikte lösen
 git push
