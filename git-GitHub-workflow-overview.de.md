@@ -26,7 +26,7 @@ git push -u origin main
 
 3. **main Branch schützen** vor nicht-Pull Request Merge-Anfragen
 
-   Auf GitHub: In den Repo-Settings → Branches → Branch protection rule für main/default erstellen (z. B. „Require pull request before merging").
+   Auf GitHub: In den Repo-Settings → Branches → Branch protection rule für main/default erstellen (z. B. "Require pull request before merging").
 
 ---
 
@@ -65,7 +65,7 @@ git add . && git commit -m "resolve merge conflicts"
 git push origin <branchname>  # den PR aktualisieren mit den gelösten Konflikten
 ```
 
-> so kann ohne Probleme online der branch in `main` oder `staging` gemerged werden
+> So kann ohne Probleme online der branch in `main` oder `staging` gemerged werden
 
 ---
 
@@ -76,7 +76,7 @@ git switch -c <branchname>
 git push -u origin <branchname>
 git switch main
 git fetch origin  # holt sich die neusten Metadaten/Commits von GitHub
-git reset --hard origin/main  # Setzt deinen lokalen Branch main exakt auf den Stand von origin/main
+git reset --hard origin/main  # setzt deinen lokalen Branch main exakt auf den Stand von origin/main
 git switch <branchname>  # weiter im richtigen Branch arbeiten
 ```
 
