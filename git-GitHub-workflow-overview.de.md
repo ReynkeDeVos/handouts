@@ -151,7 +151,7 @@ feature:               D' --- E'
 
 ---
 
-## ⚙️ Wenn Konflikte entstehen
+### ⚙️ Wenn Konflikte entstehen
 
 Während des Rebases stoppt Git bei jedem Konflikt:
 
@@ -169,7 +169,7 @@ git rebase --abort
 
 ---
 
-## 🚀 Danach pushen
+### 🚀 Danach pushen
 
 Da Rebase die Commit-Historie neu schreibt, müsst ihr mit `--force-with-lease` pushen:
 
