@@ -51,6 +51,14 @@ git switch <branchname>
 git merge main  # aktualisiertes main in den Feature-Branch mergen & Konflikte auslösen
 ```
 
+ALTERNATIV:
+
+```bash
+# Auf eurem <branchname>
+git pull origin main   # shorthand für: git fetch origin && git merge origin/main
+git push
+```
+
 - Konflikte im Merge Editor von VSCode lösen ([Video-Tutorial ansehen](https://www.youtube.com/watch?v=HosPml1qkrg))
 
 ```bash
