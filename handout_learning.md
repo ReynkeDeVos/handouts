@@ -53,7 +53,9 @@ Large Language Models (like ChatGPT) are powerful resources, but use them wisely
 - **Remember Your Goal:** The aim is to _learn_ and build problem-solving skills, not just get the answer.
 - **Avoid Direct Solutions:** Letting LLMs give you the final answer hinders learning. Be aware of potential inaccuracies or limitations in their output. Try Google and Documentation first!
 - **Use Study Modes:** When using ChatGPT or Gemini, activate their study mode features. These are designed to guide learning rather than provide direct answers.
+
   <img src="chatGPT_study_mode.png" width="40%" alt="ChatGPT Study Mode">
+
 - **Use NOVA from the LMS:** The Learning Management System provides NOVA, which is very similar to the study modes.
 - **Never Copy-Paste Code:** As a rule of thumb, never copy and paste code directly into or from LLM websites or tools. Instead, type it out yourself and explain each line — that’s how you build real understanding and develop essential problem-solving skills.
 
