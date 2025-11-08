@@ -7,13 +7,13 @@ Learning a new skill, especially something complex like coding, is a journey. It
 - **Fixed Mindset:** Believing intelligence/skill is fixed ("I'm just not smart enough"). This hinders learning.
 - **Growth Mindset:** Believing you can improve abilities through dedication and hard work ("I can't do it _yet_, but I'll get there with practice"). This mindset encourages embracing challenges and learning from mistakes.
 - **Why it matters:** Challenges become opportunities to grow, not signs you can't succeed. Embrace struggles as part of the learning process and remember your progress! Praising effort fosters this mindset.
-- **Learn More:** [🎥 Believe you can get better](https://www.youtube.com/watch?v=J-swZaKN2Ic) - _11 min_, Prof. Carol S. Dweck (TEDx Talk)
+- **Learn More:** 🎥 [Believe you can get better](https://www.youtube.com/watch?v=J-swZaKN2Ic) - _11 min_, Prof. Carol S. Dweck (TEDx Talk)
 
 ## 2. Understand the Learning Process
 
 - **Focus & Diffuse Modes:** Your brain switches between focused concentration (studying, coding, using established neural pathways) and a relaxed, "diffuse" state (walking, showering, sleeping, allowing new connections). Both are crucial for deep understanding and problem-solving.
 - **Take Breaks:** Stepping away when stuck isn't quitting; it lets your diffuse mode work! Regular breaks prevent burnout, refresh your brain, and boost productivity.
-- **Practice & Apply with Active Recall:** Reading isn't enough. Apply concepts through exercises and projects. Crucially, use **Active Recall** – actively retrieving information from memory (like quizzing yourself or using flashcards) rather than passively re-reading. This significantly improves long-term retention. This is how the curriculum is built for you. [🎥 Mindset of Successful Programmers](https://www.youtube.com/watch?v=nogh434ykF0) - _5 min_, bigboxSWE (YouTube)
+- **Practice & Apply with Active Recall:** Reading isn't enough. Apply concepts through exercises and projects. Crucially, use **Active Recall** – actively retrieving information from memory (like quizzing yourself or using flashcards) rather than passively re-reading. This significantly improves long-term retention. This is how the curriculum is built for you. 🎥 [Mindset of Successful Programmers](https://www.youtube.com/watch?v=nogh434ykF0) - _5 min_, bigboxSWE (YouTube)
 - **Solidify by Teaching:** Understand it, practice it, _teach it_. Explaining concepts to others is a powerful way to reinforce your own learning. This aligns with the **Feynman Technique**: explaining a concept in simple terms reveals knowledge gaps and deepens understanding. Practice this by helping colleagues, which also fosters collaborative learning benefits.
 
 ## 3. What to Do When You're Stuck
@@ -23,7 +23,7 @@ Getting stuck is normal! Try these steps first:
 1. **Google It:** Someone has likely faced the same problem. Learn to search effectively.
 2. **Take a Break:** Let your diffuse mode work on the problem.
 3. **Prepare to Ask:** Clearly define the problem and what you've already tried. Seeking help is a key self-regulation strategy for effective learning.  
-   👉 For detailed guidance and examples on how to ask effective questions, see the separate handout: [How to Ask for Help Effectively](https://github.com/ReynkeDeVos/handouts/blob/main/handout_asking_for_help.md)
+   👉 For detailed guidance and examples on how to ask effective questions, see the separate handout: 🔗 [How to Ask for Help Effectively](https://github.com/ReynkeDeVos/handouts/blob/main/handout_asking_for_help.md)
 
 **Important Time Limit & Help Process:**
 
@@ -34,7 +34,7 @@ Getting stuck is normal! Try these steps first:
 ## 4. Manage Your Time & Avoid Pitfalls
 
 - **Be Consistent with Spaced Repetition:** Short, regular study sessions are more effective than infrequent marathon sessions. Use **Spaced Repetition** – reviewing material at increasing intervals just before you might forget it – to dramatically improve long-term memory. Build this habit.
-- **Avoid Procrastination:** Use techniques like the Pomodoro Technique (e.g. work 55 mins, break 5 mins, or adjust as needed) to stay focused. Effective time management is linked to better academic outcomes and well-being. [🔗 Pomofocus Timer](https://pomofocus.io/)
+- **Avoid Procrastination:** Use techniques like the Pomodoro Technique (e.g. work 55 mins, break 5 mins, or adjust as needed) to stay focused. Effective time management is linked to better academic outcomes and well-being. 🔗 [ Pomofocus Timer](https://pomofocus.io/)
 - **Minimize Distractions:** Turn off notifications and find a quiet study space. Mobile phone overuse can correlate with procrastination.
 - **Don't Compare:** Focus on _your_ progress compared to _your_ past self, not others. Everyone learns at their own pace.
 - **Stick to the Path:** Avoid deep "rabbit holes" on topics outside the current learning scope; they can derail momentum.
@@ -44,7 +44,7 @@ Getting stuck is normal! Try these steps first:
 
 - **Grit:** Passion and perseverance for long-term goals. It's sticking with things even when they're difficult.
 - **Why it matters:** Learning takes tenacity. Developing grit, particularly the perseverance aspect, helps you push through challenges and is associated with positive outcomes like well-being and motivation. It often correlates with having a growth mindset.
-- **Learn More:** [🎥 Grit: The power of passion and perseverance](https://youtu.be/H14bBuluwB8?si=BWab-yYEp6qFEp3I) - _6 min_, Prof. Angela Duckworth (TED Talk)
+- **Learn More:** 🎥 [Grit: The power of passion and perseverance](https://youtu.be/H14bBuluwB8?si=BWab-yYEp6qFEp3I) - _6 min_, Prof. Angela Duckworth (TED Talk)
 
 ## 6. Using ChatGPT (AI/LLMs) Effectively
 
@@ -53,9 +53,7 @@ Large Language Models (like ChatGPT) are powerful resources, but use them wisely
 - **Remember Your Goal:** The aim is to _learn_ and build problem-solving skills, not just get the answer.
 - **Avoid Direct Solutions:** Letting LLMs give you the final answer hinders learning. Be aware of potential inaccuracies or limitations in their output. Try Google and Documentation first!
 - **Use Study Modes:** When using ChatGPT or Gemini, activate their study mode features. These are designed to guide learning rather than provide direct answers.
-
   <img src="chatGPT_study_mode.png" width="40%" alt="ChatGPT Study Mode">
-
 - **Use NOVA from the LMS:** The Learning Management System provides NOVA, which is very similar to the study modes.
 - **Never Copy-Paste Code:** As a rule of thumb, never copy and paste code directly into or from LLM websites or tools. Instead, type it out yourself and explain each line — that’s how you build real understanding and develop essential problem-solving skills.
 
@@ -73,12 +71,12 @@ Large Language Models (like ChatGPT) are powerful resources, but use them wisely
 
 ## Supplemental Resources
 
-- [🎥 Summary of Coursera's Learning How to Learn course](https://youtu.be/O96fE1E-rf8?si=cf2nFuzZCBP7bdS1) - _18 min_, Prof. Barbara Oakley (TEDx Talk )
-- [📖 Managing inspiration and motivation](https://markmanson.net/how-to-get-motivated) - _15min_, Mark Manson (Self-help author)
-- [📖 Learning to code when it gets dark](https://www.freecodecamp.org/news/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje) - _20 min_, Alexander Kallaway (freeCodeCamp)
-- [📖 "The Learning Myth: Why I'll Never Tell My Son He's Smart"](https://www.khanacademy.org/college-careers-more/talks-and-interviews/talks-and-interviews-unit/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart) - _6min_, Sal Khan (Khan Academy)
-- [🎥 WaitButWhy on Procrastination](https://www.youtube.com/watch?v=arj7oStGLkU) - _14min_, Tim Urban (TED Talk)
-  - [📖 Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) - _17 min_ (WaitButWhy article explaining the cycle)
-  - [📖 How to Beat Procrastination](https://waitbutwhy.com/2013/11/how-to-beat-procrastination.html) - _25 min_ (WaitButWhy Part 2)
+- 🎥 [Summary of Coursera's Learning How to Learn course](https://youtu.be/O96fE1E-rf8?si=cf2nFuzZCBP7bdS1) - _18 min_, Prof. Barbara Oakley (TEDx Talk )
+- 📖 [Managing inspiration and motivation](https://markmanson.net/how-to-get-motivated) - _15min_, Mark Manson (Self-help author)
+- 📖 [Learning to code when it gets dark](https://www.freecodecamp.org/news/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje) - _20 min_, Alexander Kallaway (freeCodeCamp)
+- 📖 ["The Learning Myth: Why I'll Never Tell My Son He's Smart"](https://www.khanacademy.org/college-careers-more/talks-and-interviews/talks-and-interviews-unit/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart) - _6min_, Sal Khan (Khan Academy)
+- 🎥 [WaitButWhy on Procrastination](https://www.youtube.com/watch?v=arj7oStGLkU) - _14min_, Tim Urban (TED Talk)
+  - 📖 [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) - _17 min_ (WaitButWhy article explaining the cycle)
+  - 📖 [How to Beat Procrastination](https://waitbutwhy.com/2013/11/how-to-beat-procrastination.html) - _25 min_ (WaitButWhy Part 2)
 
 ---
