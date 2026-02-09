@@ -134,6 +134,7 @@ feature:    D --- E ------- M
 ```
 
 ✅ **Works great**
+
 ❌ **But:** The history becomes branched and can get a bit harder to read.
 
 ---
@@ -154,6 +155,7 @@ feature:               D' --- E'
 ```
 
 ✅ **Linear history**
+
 ❌ **Commit IDs change** → only do this if you’re the only person working on that branch!
 
 ---
