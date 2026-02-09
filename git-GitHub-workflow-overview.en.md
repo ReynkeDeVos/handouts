@@ -184,7 +184,7 @@ Because rebase rewrites history, you need `--force-with-lease`:
 
 ```bash
 git push --force-with-lease  # after a rebase (history was rewritten)
-git push                    # if you only added new commits (no rebase)
+git push                     # if you only added new commits (no rebase)
 ```
 
 💡 **Safer than `--force`**, because Git checks whether someone else pushed in the meantime.
