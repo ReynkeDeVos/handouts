@@ -56,6 +56,7 @@ ALTERNATIVE:
 ```bash
 # On your <branchname>
 git pull origin main  # shorthand for: git fetch origin && git merge origin/main
+# updates directly from GitHub main (leaves your local main untouched)
 ```
 
 - Resolve conflicts in VS Code’s Merge Editor ([watch tutorial video](https://www.youtube.com/watch?v=HosPml1qkrg))
