@@ -129,8 +129,8 @@ This results in:
 main:    A --- B --- C ------ PRM (GitHub PR Merge)
            \               \  /
 feature:    D --- E ------- M
-                             ↑
-                       Merge commit (main→feature)
+                            ↑
+                     Merge commit (main→feature)
 ```
 
 ✅ **Works great**
