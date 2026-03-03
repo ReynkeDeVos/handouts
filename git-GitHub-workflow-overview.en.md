@@ -14,7 +14,7 @@ git commit -m "first commit"
 
 1. Create a repo on GitHub (Owner + Name)
 
-1. Link your local repository to the GitHub repository:
+2. Link your local repository to the GitHub repository:
 
 ```bash
 git remote add origin git@github.com:yourGHhandle/example.git
@@ -24,7 +24,7 @@ git push -u origin main
 
 > **Note:** `-u` sets the upstream tracking. After that, `git push` is enough on the `main` branch.
 
-1. **Protect the `main` branch** so merges only happen via Pull Requests
+3. **Protect the `main` branch** so merges only happen via Pull Requests
 
    On GitHub: Repo Settings → Branches → create a “Branch protection rule” for `main`/default (e.g. “Require a pull request before merging”).
 
