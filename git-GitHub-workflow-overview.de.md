@@ -74,6 +74,8 @@ git push origin <branchname>  # den PR aktualisieren mit den gelösten Konflikte
 
 ```bash
 git switch -c <branchname>
+# nur nötig, wenn deine Änderungen noch nicht committed sind:
+git add . && git commit -m "save my changes"
 git push -u origin <branchname>
 git switch main
 git fetch origin  # holt sich die neusten Metadaten/Commits von GitHub
@@ -103,7 +105,7 @@ Wenn ihr euren Branch auf den neuesten Stand von `main` bringen wollt, habt ihr 
 
 Ihr habt z. B. einen Feature-Branch:
 
-```
+```txt
 main:    A --- B --- C
           \
 feature:    D --- E
@@ -125,7 +127,7 @@ git push
 
 Das ergibt:
 
-```
+```txt
 main:    A --- B --- C ------ PRM (GitHub PR Merge)
            \               \  /
 feature:    D --- E ------- M
@@ -147,7 +149,7 @@ git pull --rebase origin main     # shorthand für: git fetch origin && git reba
 
 Git „nimmt" eure Commits (`D`, `E`), setzt sie kurz beiseite, springt auf den neuesten Stand von `main`, und „spielt" eure Änderungen oben drauf:
 
-```
+```txt
 main:    A --- B --- C ------- PRM (GitHub PR Merge)
                       \        /
 feature:               D' --- E'
@@ -200,7 +202,7 @@ git push                          # wenn nur neue Commits hinzugefügt (kein Reb
 
 ---
 
-## 📘 Kurz gesagt:
+## 📘 Kurz gesagt
 
 - **`merge`** = einfach, sicher, aber mit extra Commit-Nachrichten
 - **`rebase`** = elegant & linear, aber verändert Historie

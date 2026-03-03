@@ -24,7 +24,7 @@ git push -u origin main
 
 > **Note:** `-u` sets the upstream tracking. After that, `git push` is enough on the `main` branch.
 
-3. **Protect the `main` branch** so merges only happen via Pull Requests
+1. **Protect the `main` branch** so merges only happen via Pull Requests
 
    On GitHub: Repo Settings → Branches → create a “Branch protection rule” for `main`/default (e.g. “Require a pull request before merging”).
 
@@ -74,6 +74,8 @@ git push origin <branchname>  # update the PR with your conflict resolution
 
 ```bash
 git switch -c <branchname>
+# only needed if your changes are not committed yet:
+git add . && git commit -m "save my changes"
 git push -u origin <branchname>
 git switch main
 git fetch origin  # downloads the newest metadata/commits from GitHub
