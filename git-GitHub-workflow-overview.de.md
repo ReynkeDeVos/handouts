@@ -24,7 +24,7 @@ git push -u origin main
 
 > **Hinweis:** `-u` setzt die Upstream-Verknüpfung, danach reicht `git push` innerhalb dieser Branch `main`.
 
-3. **main Branch schützen** vor nicht-Pull Request Merge-Anfragen
+1. **main Branch schützen** vor nicht-Pull Request Merge-Anfragen
 
    Auf GitHub: In den Repo-Settings → Branches → Branch protection rule für main/default erstellen (z. B. "Require pull request before merging").
 
@@ -62,9 +62,14 @@ git pull origin main   # shorthand für: git fetch origin && git merge origin/ma
 - Konflikte im Merge Editor von VSCode lösen ([Video-Tutorial ansehen](https://www.youtube.com/watch?v=HosPml1qkrg))
 
 ```bash
-git add . && git commit -m "resolve merge conflicts"
+git add .
+git merge --continue  # Merge nach Konflikten finalisieren
+# Wenn ihr stattdessen eine eigene Merge-Commit-Message wollt:
+# git commit -m "resolve merge conflicts"
 git push origin <branchname>  # den PR aktualisieren mit den gelösten Konflikten
 ```
+
+> Wenn es keine Konflikte gibt, finalisiert Git den Merge automatisch (und erstellt nur bei Bedarf einen Merge-Commit), dann könnt ihr direkt `git push` ausführen.
 
 > So kann ohne Probleme online der branch in `main` oder `staging` gemerged werden
 
@@ -121,7 +126,7 @@ Ihr wollt jetzt euren Branch aktualisieren.
 ```bash
 # Auf eurem <branchname>
 git pull origin main   # shorthand für: git fetch origin && git merge origin/main
-# ggf. Konflikte lösen
+git add . && git merge --continue  # nur nötig, wenn Konflikte aufgetreten sind
 git push
 ```
 
@@ -180,12 +185,14 @@ git rebase --abort
 
 ### 🚀 Danach pushen
 
-Da Rebase die Commit-Historie neu schreibt, müsst ihr mit `--force-with-lease` pushen:
+Da Rebase die Commit-Historie neu schreibt, müsst ihr meistens mit `--force-with-lease` pushen:
 
 ```bash
-git push --force-with-lease       # nach einem Rebase (Historie wurde umgeschrieben)
+git push --force-with-lease       # nach einem Rebase einer bereits gepushten Branch
 git push                          # wenn nur neue Commits hinzugefügt (kein Rebase)
 ```
+
+Wenn die rebaste Branch noch nie gepusht wurde, reicht ein normales `git push -u origin <branchname>`.
 
 💡 **Sicherer als `--force`**, da Git prüft, ob jemand anderes zwischenzeitlich gepusht hat.
 

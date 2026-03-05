@@ -62,9 +62,14 @@ git pull origin main  # shorthand for: git fetch origin && git merge origin/main
 - Resolve conflicts in VS Code’s Merge Editor ([watch tutorial video](https://www.youtube.com/watch?v=HosPml1qkrg))
 
 ```bash
-git add . && git commit -m "resolve merge conflicts"
+git add .
+git merge --continue  # finalize the merge after conflicts
+# If you want a custom merge commit message instead, use:
+# git commit -m "resolve merge conflicts"
 git push origin <branchname>  # update the PR with your conflict resolution
 ```
+
+> If there are no conflicts, Git finalizes the merge automatically (creating a merge commit only when needed), and you can directly run `git push`.
 
 > This makes it safe to merge the branch online into `main` or `staging`.
 
@@ -121,7 +126,7 @@ Now you want to update your branch.
 ```bash
 # On your <branchname>
 git pull origin main  # shorthand for: git fetch origin && git merge origin/main
-# resolve conflicts if needed
+git add . && git merge --continue  # only needed if conflicts occurred
 git push
 ```
 
@@ -182,12 +187,14 @@ git rebase --abort
 
 ### 🚀 Push afterwards
 
-Because rebase rewrites history, you need `--force-with-lease`:
+Because rebase rewrites history, you usually need `--force-with-lease`:
 
 ```bash
-git push --force-with-lease  # after a rebase (history was rewritten)
+git push --force-with-lease  # after a rebase of an already-pushed branch
 git push                     # if you only added new commits (no rebase)
 ```
+
+If the rebased branch has never been pushed before, a normal `git push -u origin <branchname>` is enough.
 
 💡 **Safer than `--force`**, because Git checks whether someone else pushed in the meantime.
 
