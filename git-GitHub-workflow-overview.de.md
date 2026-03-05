@@ -24,7 +24,7 @@ git push -u origin main
 
 > **Hinweis:** `-u` setzt die Upstream-Verknüpfung, danach reicht `git push` innerhalb dieser Branch `main`.
 
-1. **main Branch schützen** vor nicht-Pull Request Merge-Anfragen
+3. **main Branch schützen** vor nicht-Pull Request Merge-Anfragen
 
    Auf GitHub: In den Repo-Settings → Branches → Branch protection rule für main/default erstellen (z. B. "Require pull request before merging").
 
