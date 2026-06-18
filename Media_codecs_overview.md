@@ -109,7 +109,7 @@ ffmpeg -i input.mkv \
   output.mkv
 ```
 
-**Recommendation:** use **Opus** for `.mkv`/`.webm`; use **AAC** for `.mp4` compatibility.
+**Recommendation:** use **Opus** for `.mkv`/`.webm`; use **AAC** for compatibility.
 
 ---
 
