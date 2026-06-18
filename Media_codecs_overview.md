@@ -19,7 +19,7 @@
 
 | Codec            | Lossy / lossless              |                    Compression quality | Main purpose today                                                                             | Recommended library/tool                          |
 | ---------------- | ----------------------------- | -------------------------------------: | ---------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| **AV1**          | Lossy; lossless modes exist   |                              Excellent | Efficient 4K video, streaming, long-term storage, smaller files than H.264/H.265 in many cases | Encode: **FFmpeg + `libsvtav1`**; decode: `dav1d` |
+| **AV1**          | Lossy; lossless modes exist   |                              Excellent | Efficient 4K video, streaming, long-term storage, smaller files than H.264/H.265 in many cases | Encode: **FFmpeg + `libsvtav1`**;                 |
 | **HEVC / H.265** | Lossy; lossless modes exist   |                              Very good | 4K/HDR video, TVs, phones, Apple ecosystem, Blu-ray-style compatibility                        | FFmpeg + `libx265` or hardware HEVC encoder       |
 |                  |                               |                                        |                                                                                                |                                                   |
 | **VVC / H.266**  | Lossy                         |                    Excellent in theory | Future/high-efficiency video, but not practical for most users yet                             | Not recommended for normal use yet                |
