@@ -117,11 +117,11 @@ ffmpeg -i input.mkv \
 
 | Codec / format    | Lossy / lossless                 |           Compression quality | Main purpose today                                                                   | Recommended tool/library              |
 | ----------------- | -------------------------------- | ----------------------------: | ------------------------------------------------------------------------------------ | ------------------------------------- |
-| **AVIF**          | Lossy and lossless               |                     Excellent | Modern small web images, photos, screenshots, transparency, HDR-capable images       | **`libavif` / `avifenc`**             |
+| **AVIF**          | Lossy and lossless               |                     Excellent | Modern small web images, photos, screenshots, transparency, HDR-capable images       | **`libavif` → `avifenc`**             |
 | **JPEG XL / JXL** | Lossy and lossless               |                     Excellent | Modern image format with strong compression and features; browser support is limited | `libjxl` tools                        |
-| **PNG**           | Lossless                         | Good for graphics, not photos | Screenshots, UI, logos, transparency, exact pixels                                   | PNG tools, ImageMagick, libvips       |
 | **WebP**          | Lossy and lossless               |                     Very good | Broad web support, smaller than JPEG/PNG in many cases                               | `libwebp` tools, ImageMagick, libvips |
 | **HEIC / HEIF**   | Usually lossy; lossless possible |                     Very good | Phone photos, especially Apple devices                                               | `libheif`                             |
+| **PNG**           | Lossless                         | Good for graphics, not photos | Screenshots, UI, logos, transparency, exact pixels                                   | PNG tools, ImageMagick, libvips       |
 | **TIFF**          | Often lossless or uncompressed   |                         Large | Scanning, print, professional/archive workflows                                      | ImageMagick, libvips                  |
 
 ### Image recommendation on Arch Linux
