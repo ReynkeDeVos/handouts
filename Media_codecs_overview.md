@@ -4,14 +4,13 @@
 
 | Goal                         | Recommended codec | Recommended tool/library               | Container / extension            |
 | ---------------------------- | ----------------- | -------------------------------------- | -------------------------------- |
-| Small 4K video, good quality | **AV1**           | **FFmpeg + `libsvtav1`**               | `.mkv` or `.mp4`                 |
-| Compatible 4K video          | **HEVC / H.265**  | FFmpeg + `libx265` or hardware encoder | `.mp4` or `.mkv`                 |
+| Video, good quality          | **AV1**           | **FFmpeg + `libsvtav1`**               | `.mkv` or `.mp4`                 |
+| Compatible video             | **HEVC / H.265**  | FFmpeg + `libx265` or hardware encoder | `.mkv` or `.mp4`                 |
 |                              |                   |                                        |                                  |
-| Good compressed audio        | **Opus**          | FFmpeg + `libopus`                     | usually `.mkv`, `.webm`, `.opus` |
-| Surround streaming audio     | **E-AC-3**        | FFmpeg `eac3` encoder                  | `.mkv`, `.mp4`                   |
+| Compressed audio             | **Opus**          | FFmpeg + `libopus`                     | usually `.mkv`, `.webm`, `.opus` |
 | Lossless audio               | **FLAC**          | FFmpeg `flac` encoder                  | `.flac`, `.mkv`                  |
 |                              |                   |                                        |                                  |
-| Small modern images          | **AVIF**          | **`libavif` / `avifenc`**              | `.avif`                          |
+| Small images                 | **AVIF**          | **`libavif` / `avifenc`**              | `.avif`                          |
 
 ---
 
