@@ -50,15 +50,15 @@ Good starting values for AV1 with SVT-AV1:
 
 Lower `CRF` means better quality and larger files. Lower `preset` means slower encoding and usually better compression.
 
-### AV1 encoder choice
+### AV1 encoder options
 
 | Encoder         | Use it when...                                                  | Pros                                                                   | Cons                                                               |
 | --------------- | --------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | **`libsvtav1`** | You want the best normal AV1 encoder for real video compression | Fast, mature, good multi-core scaling, very good quality/size tradeoff | Not always the absolute smallest possible file in every niche case |
-| `libaom-av1`    | You want reference-quality experiments or very fine control     | Very flexible, reference encoder                                       | Often much slower                                                  |
 | `librav1e`      | You want to experiment with the Rust AV1 encoder                | Interesting, simple, safe Rust implementation                          | Usually not the best practical default compared with SVT-AV1       |
+| `libaom-av1`    | You want reference-quality experiments or very fine control     | Very flexible, reference encoder                                       | Often much slower                                                  |
 
-**Recommendation:** use **`libsvtav1`** for normal AV1 video encoding. These are encoder wrappers/libraries, not separate video formats. They are available in FFmpeg when the FFmpeg build was compiled with the matching libraries.
+**Recommendation:** use **`libsvtav1`** for normal AV1 video encoding. They are available in FFmpeg when the FFmpeg build was compiled with the matching libraries.
 
 ### AV1 workflow tools
 
