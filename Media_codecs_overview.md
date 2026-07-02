@@ -8,7 +8,7 @@
 | Compatible compressed video  | **HEVC / H.265**  | FFmpeg → `libx265` or hardware encoder | `.mkv` or `.mp4`                 |
 |                              |                   |                                        |                                  |
 | Compressed audio             | **Opus**          | FFmpeg → `libopus`                     | usually `.mkv`, `.webm`, `.opus` |
-| Lossless audio               | **FLAC**          | FFmpeg `flac` encoder                  | `.flac`, `.mkv`                  |
+| Lossless audio               | **FLAC**          | FFmpeg → `flac`                        | `.flac`, `.mkv`                  |
 |                              |                   |                                        |                                  |
 | Compressed images            | **AVIF**          | **`libavif` → `avifenc`**              | `.avif`                          |
 | Compatible compressed images | **WebP**          | **`libwebp`**, ImageMagick             | `.webp`                          |
