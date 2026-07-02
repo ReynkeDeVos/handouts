@@ -4,8 +4,8 @@
 
 | Goal                         | Recommended codec | Recommended tool/library               | Container / extension            |
 | ---------------------------- | ----------------- | -------------------------------------- | -------------------------------- |
-| Compressed video             | **AV1**           | **FFmpeg + `libsvtav1`**               | `.mkv` or `.mp4`                 |
-| Compatible compressed video  | **HEVC / H.265**  | FFmpeg + `libx265` or hardware encoder | `.mkv` or `.mp4`                 |
+| Best compressed video        | **AV1**           | **FFmpeg → `libsvtav1`**               | `.mkv` or `.mp4`                 |
+| Compatible compressed video  | **HEVC / H.265**  | FFmpeg → `libx265` or hardware encoder | `.mkv` or `.mp4`                 |
 |                              |                   |                                        |                                  |
 | Compressed audio             | **Opus**          | FFmpeg + `libopus`                     | usually `.mkv`, `.webm`, `.opus` |
 | Lossless audio               | **FLAC**          | FFmpeg `flac` encoder                  | `.flac`, `.mkv`                  |
